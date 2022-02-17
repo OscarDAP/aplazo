@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## API REST URL
+
+If AplazoApi is not running in http://localhost:8080 you must change the apiURL located in \src\environments\environment.prod.ts , \src\environments\environment.ts 
+change the apiURL (http://localhost:8080/aplazo) for the host:port that you have
